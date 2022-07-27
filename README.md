@@ -3,13 +3,13 @@
 This is a mobile app to capture messages received from the portfolio website
 This is built using React-Native, React Hooks and Redux.
 
-<img align="left" src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/mobile-app1.png" width="300" height="600" />
+<img align="left" src="https://github.com/ChakravarthiChowdary/Portfolio-received-messages-mobile-app/blob/master/assets/images/app1.JPG" width="300" height="600" />
 
-<img src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/mobile-app2.png" width="300" height="600" />
+<img src="https://github.com/ChakravarthiChowdary/Portfolio-received-messages-mobile-app/blob/master/assets/images/app2.JPG" width="300" height="600" />
 
-<img align="left" src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/mobile-app3.png" width="300" height="600" />
+<img align="left" src="https://github.com/ChakravarthiChowdary/Portfolio-received-messages-mobile-app/blob/master/assets/images/app3.JPG" width="300" height="600" />
 
-<img  src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/mobile-app4.png" width="300" height="600" />
+<img  src="https://github.com/ChakravarthiChowdary/Portfolio-received-messages-mobile-app/blob/master/assets/images/app4.JPG" width="300" height="600" />
 
 ## Installation
 
