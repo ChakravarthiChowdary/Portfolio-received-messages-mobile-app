@@ -1,20 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from "react-native";
+import { useFonts } from "expo-font";
+import { NavigationContainer } from "@react-navigation/native";
+import { HomeStackNavigator } from "./navigation/Home";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 
 export default function App() {
+  const [loaded] = useFonts({
+    Bold: require("./assets/fonts/Poppins-Bold.ttf"),
+    Light: require("./assets/fonts/Poppins-Light.ttf"),
+    Medium: require("./assets/fonts/Poppins-Medium.ttf"),
+    Regular: require("./assets/fonts/Poppins-Regular.ttf"),
+  });
+
+  if (!loaded) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <NavigationContainer>
+        <HomeStackNavigator />
+      </NavigationContainer>
+    </Provider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const styles = StyleSheet.create({});
